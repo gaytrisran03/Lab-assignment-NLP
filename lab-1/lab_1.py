@@ -58,7 +58,7 @@ def analyze_results(token_frequencies, condition):
 
 
 if __name__ == "__main__":
-    filename = "input.txt"  # Replace with your input file
+    filename = "lab-1/input.txt"  # Replace with your input file
     text = read_text_file(filename)
 
     words_with_punctuation = tokenize_text(text)
