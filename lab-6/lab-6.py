@@ -4,8 +4,8 @@ from nltk.wsd import lesk
 import time
 
 # Sample sentence and ambiguous word
-input_sentence = "The company utilized advanced technology to observe the environmental impact of its production processes."
-input_ambiguous_word = "observe"
+input_sentence = "The company used advanced technology to monitor the environmental impact of its manufacturing process."
+input_ambiguous_word = "monitor"
 
 
 # Function to map Treebank POS tags to WordNet POS tags
